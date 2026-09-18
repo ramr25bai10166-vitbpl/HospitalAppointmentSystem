@@ -1,0 +1,5 @@
+P001|Amit Khanna|29|M|9876001234|Hypertension, on medication
+P002|Deepika Singh|35|F|9123001234|Seasonal allergies
+P003|Rahul Patel|52|M|9988001234|Type 2 Diabetes, knee pain
+P004|Pranshu Agarwal|19|M|9578364170|Pre diabetic and hypercalcemia
+P005|Atharv Kumar|12|M|8733455511|Mild Hypertension
