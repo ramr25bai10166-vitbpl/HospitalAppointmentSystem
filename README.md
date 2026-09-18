@@ -98,25 +98,12 @@ cd path/to/project
 javac -d out src/model/*.java src/exceptions/*.java src/storage/*.java src/service/*.java src/Main.java
 ```
 
-### Step 3 — Copy the data folder to the output directory (run from project root)
-
-```bash
-# Windows
-xcopy /E /I data out\data
-
-# Linux / macOS
-cp -r data out/data
-```
-
-### Step 4 — Run the application
+### Step 3 — Run the application
 
 ```bash
 java -cp out Main
 ```
 
-> **Tip:** On first run without the `xcopy` step, the app will create an empty `data/` folder in the working directory and start fresh. The pre-populated sample data files in the repo's `data/` folder must be copied to where you run `java` from.
-
----
 
 ## How to Test
 
@@ -127,12 +114,12 @@ java -cp out Main
 3. **Option 2** → View Patients — 3 pre-loaded patients shown
 4. **Option 6** → Book Appointment
    - Patient ID: `P003`, Doctor ID: `D003`, Slot: `10:00`
-   - Should succeed ✔
-5. **Option 6** → Book same slot again (D003, 10:00) → `SlotUnavailableException` shown ✔
+   - Should succeed 
+5. **Option 6** → Book same slot again (D003, 10:00) → `SlotUnavailableException` shown 
 6. **Option 8** → View Appointments — see all entries including the new one
-7. **Option 9** → Complete Appointment — enter the new appointment ID → Bill printed ✔
-8. **Option 7** → Try to cancel the completed appointment → `InvalidAppointmentException` ✔
-9. **Option 10** → Exit and re-run — data should persist ✔
+7. **Option 9** → Complete Appointment — enter the new appointment ID → Bill printed 
+8. **Option 7** → Try to cancel the completed appointment → `InvalidAppointmentException` 
+9. **Option 10** → Exit and re-run — data should persist 
 
 ---
 
@@ -158,7 +145,7 @@ MAIN MENU
 
 ```
 
-CITY CLINIC — CONSULTATION BILL
+CONSULTATION BILL
 
 Appointment ID : A003 
 Date / Slot    : 2026-09-17 at 10:00
