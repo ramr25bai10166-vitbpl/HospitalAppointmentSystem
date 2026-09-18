@@ -139,7 +139,7 @@ java -cp out Main
 ## Console Menu
 
 ```
-──────────────── MAIN MENU ────────────────
+MAIN MENU
   1.  Register Patient
   2.  View / Search Patients
   3.  Update Patient Details
@@ -150,7 +150,6 @@ java -cp out Main
   8.  View Appointments
   9.  Complete Appointment & Generate Bill
   10. Exit
-───────────────────────────────────────────
 ```
 
 ---
@@ -158,21 +157,21 @@ java -cp out Main
 ## Sample Bill Output
 
 ```
-╔══════════════════════════════════════════╗
-║        CITY CLINIC — CONSULTATION BILL   ║
-╠══════════════════════════════════════════╣
-║  Appointment ID : A003                   ║
-║  Date / Slot    : 2026-09-17 at 10:00    ║
-╠══════════════════════════════════════════╣
-║  Patient        : Rahul Patel            ║
-║  Patient ID     : P003                   ║
-╠══════════════════════════════════════════╣
-║  Doctor         : Dr. Anjali Verma       ║
-║  Specialization : Orthopedic Surgeon     ║
-╠══════════════════════════════════════════╣
-║  Consultation Fee: Rs. 1200.00           ║
-║  GST (18%)      : Rs. 216.00             ║
-║  TOTAL PAYABLE  : Rs. 1416.00            ║
-╚══════════════════════════════════════════╝
+
+CITY CLINIC — CONSULTATION BILL
+
+Appointment ID : A003 
+Date / Slot    : 2026-09-17 at 10:00
+
+Patient        : Rahul Patel
+Patient ID     : P003
+
+Doctor         : Dr. Anjali Verma
+Specialization : Orthopedic Surgeon
+
+Consultation Fee: Rs. 1200.00
+GST (18%)      : Rs. 216.00
+TOTAL PAYABLE  : Rs. 1416.00
+
   Thank you for visiting City Clinic!
 ```
